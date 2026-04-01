@@ -1,0 +1,14 @@
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ mv description.txt my_profile.txt
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ cp my_profile.txt ~    
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ cd ~               
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  my_profile.txt  Pictures  Public  Templates  Videos
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
