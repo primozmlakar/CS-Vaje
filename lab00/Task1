@@ -1,0 +1,33 @@
+┌──(kali㉿kali)-[~]
+└─$ pwd                                                
+/home/kali
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ ls -l
+total 32
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Desktop
+drwxr-xr-x 3 kali kali 4096 Mar 20 12:18 Documents
+drwxr-xr-x 2 kali kali 4096 Mar 20 12:52 Downloads
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Music
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Pictures
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Public
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Templates
+drwxr-xr-x 2 kali kali 4096 Mar 20 11:33 Videos
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ cd Documents 
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents]
+└─$ ls -l
+total 4
+drwxrwxr-x 3 kali kali 4096 Mar 20 13:06 lab-02
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents]
+└─$ cd ..       
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~]
+└─$ 
