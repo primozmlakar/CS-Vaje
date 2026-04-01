@@ -1,0 +1,25 @@
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ whoami           
+kali
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ uname -a  
+Linux kali 6.16.8+kali-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.16.8-1kali1 (2025-09-24) x86_64 GNU/Linux
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ df -h     
+Filesystem      Size  Used Avail Use% Mounted on
+udev            883M     0  883M   0% /dev
+tmpfs           198M  964K  197M   1% /run
+/dev/sda1        79G   16G   59G  21% /
+tmpfs           986M  4.0K  986M   1% /dev/shm
+none            1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           986M  112K  986M   1% /tmp
+none            1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs           198M  104K  198M   1% /run/user/1000
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ du -h
+8.0K    .
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
