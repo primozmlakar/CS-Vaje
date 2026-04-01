@@ -1,0 +1,14 @@
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ ls -lh
+total 4.0K
+-rw-rw-r-- 1 kali kali 7 Apr  1 10:47 my_profile.txt
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ chmod 004 my_profile.txt 
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ ls -lh
+total 4.0K
+-------r-- 1 kali kali 7 Apr  1 10:47 my_profile.txt
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
