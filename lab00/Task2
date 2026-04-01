@@ -1,0 +1,18 @@
+┌──(kali㉿kali)-[~/Documents/linux-exercise]
+└─$ vi description.txt
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise]
+└─$ mkdir test          
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise]
+└─$ mv description.txt ./test 
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise]
+└─$ cd test          
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ ls    
+description.txt
+                                                                                                                                                                                                          
+┌──(kali㉿kali)-[~/Documents/linux-exercise/test]
+└─$ 
