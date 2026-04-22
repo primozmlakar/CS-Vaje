@@ -1,4 +1,4 @@
-# 🛡️ Cybersecurity — Tutorials (MAG, RST, 15 hours)
+# 🛡️ Cybersecurity — Tutorials (MAG, CS, 15 hours)
 
 The repository contains tutorials for the **Cybersecurity** course (MAG, CS), which include practical tasks for developing basic skills in protecting and raising awareness of cybersecurity. Each tutorial has its own folder with a README.md file containing an introduction, objectives, description of activities, analysis, and questions for reflection.
 
