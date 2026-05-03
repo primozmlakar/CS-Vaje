@@ -129,31 +129,23 @@ lab locally.
 
 ## 3.1 Lab Setup
 
-### 3.1.1 Start the environment
-
- 
+### Start the environment
 
 <img src="media/image1.png"
 style="width:6.51181in;height:3.73611in"
 alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, pisava, programska oprema Opis je samodejno ustvarjen" />
 
- 
-
-### 3.1.2. Connect to the SSH server
+### Connect to the SSH server
 
 <img src="media/image2.png"
 style="width:6.7in;height:1.76111in"
 alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, pisava Opis je samodejno ustvarjen" />
 
- 
-
-### 3.1.3. Add additional users (for experiments)
+### Add additional users (for experiments)
 
 <img src="media/image3.png"
 style="width:5.17569in;height:0.57569in"
 alt="Slika, ki vsebuje besede besedilo, pisava, posnetek zaslona Opis je samodejno ustvarjen" />
-
- 
 
 <img src="media/image4.png"
 style="width:4.09583in;height:1.95972in"
@@ -167,25 +159,25 @@ alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, pisava Opis je samodej
 
 ## 3.3. Run brute-force attack
 
-### 3.3.1. Configuration A: weak password, no protection
+### Configuration A: weak password, no protection
 
 <img src="media/image6.png"
 style="width:6.7in;height:3.85833in"
 alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, programska oprema, pisava Opis je samodejno ustvarjen" />
 
-### 3.3.2. Configuration B: medium password, no protection
+### Configuration B: medium password, no protection
 
 <img src="media/image7.png"
 style="width:6.7in;height:4.11667in"
 alt="Slika, ki vsebuje besede besedilo, posnetek zaslona Opis je samodejno ustvarjen" />
 
-### 3.3.3. Configuration C: strong password, no protection
+### Configuration C: strong password, no protection
 
 <img src="media/image8.png"
 style="width:6.7in;height:3.98472in"
 alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, pisava Opis je samodejno ustvarjen" />
 
-### 3.3.4. Configuration D: weak password with fail2ban enabled
+### Configuration D: weak password with fail2ban enabled
 
 <img src="media/image9.png"
 style="width:6.7in;height:2.23333in"
