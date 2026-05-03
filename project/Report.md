@@ -206,23 +206,23 @@ alt="Slika, ki vsebuje besede besedilo, posnetek zaslona, pisava Opis je samodej
 
 # 5. Discussion
 
-## 5.1. Impact of password strength
+## Impact of password strength
 
 Password strength changes the attack outcome a lot. In seminar, `weakuser` uses `123456`, which is explicitly marked “easy to crack” and is also present in `passwords.txt`, so a dictionary attack should succeed quickly.
 
 `stronguser` uses `Str0ng!Pass#2026`, which is marked “hard to crack” and does **not** appear in the supplied wordlist, so the same Hydra run with that list would likely fail.
 
-## 5.2. Effectiveness of protections
+## Effectiveness of protections
 
 Protections such as rate limiting and fail2ban increase resistance by reducing how many guesses an attacker can make in a given time.
 
-## 5.3. Security vs usability trade-off
+## Security vs usability trade-off
 
 More security usually means more friction.
 
 Stronger passwords, MFA, lockouts, and rate limiting improve protection, but they also make login slower, increase support burden, and can lock out legitimate users after mistakes.
 
-## 5.4. How would fail2ban affect your results?
+## How would fail2ban affect your results?
 
 Fail2ban would likely make the brute-force test much slower or stop it temporarily by banning the attacking IP after repeated failed SSH logins.
 
@@ -232,11 +232,11 @@ Compared with **“no protection,”** you would expect:
 - longer total attack time,
 - and often no success during the test window.
 
-## 5.5. Would it prevent brute-force attacks completely?
+## Would it prevent brute-force attacks completely?
 
 No. Fail2ban reduces risk, but it does **not** prevent brute-force attacks completely.
 
-## 5.6. How could an attacker bypass it?
+## How could an attacker bypass it?
 
 An attacker could bypass fail2ban by using:
 
@@ -245,7 +245,7 @@ An attacker could bypass fail2ban by using:
 - **Password spraying** across many usernames instead of many tries on one account.
 - **Stolen credentials** from elsewhere, which removes the need for guessing.
 
-## 5.7 Recommended improvements
+## Recommended improvements
 
 1\. I would disable password-based SSH access and move administrators to
 public-key authentication. This removes the main attack surface tested
