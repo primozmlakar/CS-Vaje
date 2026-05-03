@@ -1,7 +1,5 @@
-**Report: SSH Security Weakness Study**
+# **Report: SSH Security Weakness Study**
 
-Brute-force resistance under different password and protection
-configurations
 
 # 1. Introduction
 
