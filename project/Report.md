@@ -1,4 +1,4 @@
-# **Report: SSH Security Weakness Study**
+# Project Report: SSH Security Weakness Study
 
 
 # 1. Introduction
